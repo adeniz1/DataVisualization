@@ -7,15 +7,15 @@
 </head>
 <body>
   
-<h1 class="headingInfo">Designübung WS 23/24</h1>
+<h1 class="headingInfo">Passed and Failed Students: How Do They Differ?</h1>
+<h1 class="headingInfo">Data provided by: VisVa Chair, University of Cologne</h1>
 
 <div class="heading-container">
-  <h2 class="OptionsInfo"> ✨Visualisiere hier unten die Daten nach deinen Vorstellungen✨</h2>
-  <h2 class="OptionsInfo"> Wie? Mit nur einem Klick auf das DrawParSet Button!</h2>
+  <h2 class="OptionsInfo"> ✨Visualize the data with a Parallel Sets according to your preferences✨</h2>
+  <h2 class="OptionsInfo">How? Just choose which axis should represent which variable e.g., those that are relevant to you and click on the DrawParSet button! </h2>
 </div>
   <div id="main">
     <div  id="Options">
-    
     <div class="axis-container">
       <h2 class="AxisInfo">1st Axis</h2>
        <label for="textfeld"></label>
@@ -50,6 +50,25 @@
       <option value="Year">Year</option>
     </select>
   </div>
+  <div class="table">
+    <table class="hinweistabelle">
+      <caption>MinutesToCompleteExam</caption>
+      <tr>
+          <th>fast</th>
+          <td>less than 35 minutes</td>
+      </tr>
+      <tr>
+          <th>moderate</th>
+          <td>35 minutes or more but less than 75 minutes</td>
+      </tr>
+      <tr>
+          <th>slow</th>
+          <td>75 minutes or more</td>
+      </tr>
+    
+    </table>
+  </div>
+  </div>
   <div class="auswahl-container">
     <h2 class="headingAuswahlOptionen">Kursauswahl</h2>
   <select id="DropDownCourse" class="select">
@@ -68,23 +87,6 @@
   
   <script src="ParallelSets.js" defer></script>
   <script src="framework.js" defer></script>
-
-  <table class="hinweistabelle">
-    <caption>MinutesToCompleteExam</caption>
-    <tr>
-        <th>schnell</th>
-        <td>weniger als 35 Minuten</td>
-    </tr>
-    <tr>
-        <th>moderat</th>
-        <td>mehr oder genau 35 Minuten oder  weniger als 75 Minuten</td>
-    </tr>
-    <tr>
-        <th>langsam</th>
-        <td>mehr oder genau 75 Minuten</td>
-    </tr>
-  
-  </table>
 </body>
 
 
