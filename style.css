@@ -1,0 +1,118 @@
+.hinweistabelle {
+    border: 2px solid #d4af37 ; 
+    width: 25%;
+    font-size:20px ;
+    margin-top: 200px; 
+    margin-bottom: auto ;
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    margin-left: auto;
+    margin-right: 1;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.hinweistabelle caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+th, td {
+    padding: 4px; 
+    text-align: left; 
+    color:#d4af37
+}
+th { 
+    background-color: #d4af37 ;
+    color: white; 
+}
+.headingAuswahlOptionen {
+    color:#d4af37 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.AxisInfo  {
+    color:#d4af37 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.headingInfo {
+    color: #d4af37;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center ;
+    font-size: 40px;
+}
+
+.heading-container{
+    text-align: left ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#Options {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.axis-container, .auswahl-container {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 20px; 
+}
+
+#drawParSet {
+    margin-left: 10px; 
+    margin-top: 40px ;
+    width: 100px; 
+    height: 50px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: white; 
+    color: #d4af37 ;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.select {
+    width: 200px;
+    height:20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+
+  /* Stilisierung der Dropdown-Optionen */
+.select option {
+    padding: 5px;
+    background-color: #f8f8f8;
+  }
+/* Hover- und Focus-Effekte für den Dropdown-Container */
+.select:hover, .select:focus {
+  border-color: #888;
+  outline: none;
+}
+
+
+#textfeld {
+    width: 200px;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 16px; 
+    margin-top: 5px ;
+}
+
+  
+
+
+  
+  
+
+
+
+
+
